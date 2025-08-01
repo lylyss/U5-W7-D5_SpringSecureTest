@@ -1,12 +1,13 @@
-gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest                                                                                                                                                                                                                                                   
 $ git remote add origin https://github.com/lylyss/U5-W7-D5_SpringSecureTest.git
 fatal: not a git repository (or any of the parent directories): .git
 
-gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest                                                                                                                                                                                                                                                   
 $ git init
 Initialized empty Git repository in D:/EPICODE_backand/U5-W7-D5_SpringSecureTest/.git/
 
-gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (main)
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (main)                                                                                                                                                                                                                                            
 $ git add .
 warning: in the working copy of '.gitattributes', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
@@ -17,7 +18,7 @@ warning: in the working copy of 'src/main/java/lobodanicolae/U5_W7_D5_SpringSecu
 warning: in the working copy of 'src/main/resources/application.properties', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'src/test/java/lobodanicolae/U5_W7_D5_SpringSecureTest/U5W7D5SpringSecureTestApplicationTests.java', LF will be replaced by CRLF the next time Git touches it
 
-gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (main)
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (main)                                                                                                                                                                                                                                            
 $ git commit -m "initialize Spring Boot project"
 [main (root-commit) 6474ffb] initialize Spring Boot project
  12 files changed, 610 insertions(+)
@@ -34,10 +35,10 @@ $ git commit -m "initialize Spring Boot project"
  create mode 100644 strategy/AuthenticationStrategy.java
  create mode 100644 strategy/BasicAuthenticationStrategy.java
 
-gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (main)
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (main)                                                                                                                                                                                                                                            
 $ git remote add origin https://github.com/lylyss/U5-W7-D5_SpringSecureTest.git
 
-gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (main)
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (main)                                                                                                                                                                                                                                            
 $ git push -u origin main
 Enumerating objects: 26, done.
 Counting objects: 100% (26/26), done.
@@ -50,7 +51,7 @@ To https://github.com/lylyss/U5-W7-D5_SpringSecureTest.git
  * [new branch]      main -> main
 branch 'main' set up to track 'origin/main'.
 
-gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (main)
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (main)                                                                                                                                                                                                                                            
 $ git log
 commit 6474ffb235fb8f030c5b9190f63d36aae795c724 (HEAD -> main, origin/main)
 Author: Loboda Nicolae <77647358+lylyss@users.noreply.github.com>
@@ -58,33 +59,617 @@ Date:   Fri Aug 1 11:37:08 2025 +0200
 
     initialize Spring Boot project
 
-gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (main)
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (main)                                                                                                                                                                                                                                            
 $ git branch develop
 
-gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (main)
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (main)                                                                                                                                                                                                                                            
 $ git checkout develop
 A       src/main/RreadME/DrowSQL.png
 A       src/main/RreadME/ReadMe.txt
 Switched to branch 'develop'
 
-gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (develop)
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (develop)                                                                                                                                                                                                                                         
 $ git branch feature
 
-gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (develop)
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (develop)                                                                                                                                                                                                                                         
 $ git checkout feature
 A       src/main/RreadME/DrowSQL.png
 A       src/main/RreadME/ReadMe.txt
 Switched to branch 'feature'
 
-gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (feature)
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (feature)                                                                                                                                                                                                                                         
 $ git add .
 
-gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (feature)
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (feature)                                                                                                                                                                                                                                         
 $ git commit -m "Adding read.me and the DrawSQL schema strategy "
 [feature 567e018] Adding read.me and the DrawSQL schema strategy
  2 files changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 src/main/RreadME/DrowSQL.png
  create mode 100644 src/main/RreadME/ReadMe.txt
 
-gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (feature)
-$
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (feature)                                                                                                                                                                                                                                         
+$ git add .
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (feature)                                                                                                                                                                                                                                         
+$ git commit -m "Strategy"
+[feature c3d605b] Strategy
+ 1 file changed, 22 insertions(+)
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (feature)                                                                                                                                                                                                                                         
+$ git add .
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (feature)                                                                                                                                                                                                                                         
+$ git commit -m "Git commands "
+[feature 29b28dd] Git commands
+ 1 file changed, 90 insertions(+)
+ create mode 100644 src/main/RreadME/GitBash.txt
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (feature)                                                                                                                                                                                                                                         
+$ git add .
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (feature)                                                                                                                                                                                                                                         
+$ git commit -m"Add Event and User entities with repositories for data management"
+[feature 4e6480e] Add Event and User entities with repositories for data management
+ 5 files changed, 99 insertions(+)
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/entities/Event.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/entities/User.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/enums/TipoUtente.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/repositories/EventRepository.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/repositories/UserRepository.java
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (feature)                                                                                                                                                                                                                                         
+$ git log
+commit 4e6480e950456fe3bc3d21c0936f5080e2fe7f18 (HEAD -> feature)
+Author: Loboda Nicolae <77647358+lylyss@users.noreply.github.com>
+Date:   Fri Aug 1 12:50:49 2025 +0200
+
+    Add Event and User entities with repositories for data management
+
+commit 29b28ddae85571df480e19d032c18c6aad747823
+Author: Loboda Nicolae <77647358+lylyss@users.noreply.github.com>
+Date:   Fri Aug 1 12:35:58 2025 +0200
+
+    Git commands
+
+commit c3d605ba0dc01b6be8c0550663b375e75c663687
+Author: Loboda Nicolae <77647358+lylyss@users.noreply.github.com>
+Date:   Fri Aug 1 12:31:31 2025 +0200
+
+    Strategy
+
+commit 567e01824dd50173ea5d0465f5496fc8d87d2862
+Author: Loboda Nicolae <77647358+lylyss@users.noreply.github.com>
+Date:   Fri Aug 1 12:29:54 2025 +0200
+
+    Adding read.me and the DrawSQL schema strategy
+
+commit 6474ffb235fb8f030c5b9190f63d36aae795c724 (origin/main, main, develop)                                                                                                                                                                                                                                       
+Author: Loboda Nicolae <77647358+lylyss@users.noreply.github.com>
+Date:   Fri Aug 1 11:37:08 2025 +0200
+
+    initialize Spring Boot project
+:
+commit 4e6480e950456fe3bc3d21c0936f5080e2fe7f18 (HEAD -> feature)                                                                                                                                                                                                                                                  
+Author: Loboda Nicolae <77647358+lylyss@users.noreply.github.com>
+Date:   Fri Aug 1 12:50:49 2025 +0200
+
+    Add Event and User entities with repositories for data management
+
+commit 29b28ddae85571df480e19d032c18c6aad747823                                                                                                                                                                                                                                                                    
+Author: Loboda Nicolae <77647358+lylyss@users.noreply.github.com>
+Date:   Fri Aug 1 12:35:58 2025 +0200
+
+    Git commands
+
+commit c3d605ba0dc01b6be8c0550663b375e75c663687                                                                                                                                                                                                                                                                    
+Author: Loboda Nicolae <77647358+lylyss@users.noreply.github.com>
+Date:   Fri Aug 1 12:31:31 2025 +0200
+
+    Strategy
+
+commit 567e01824dd50173ea5d0465f5496fc8d87d2862                                                                                                                                                                                                                                                                    
+Author: Loboda Nicolae <77647358+lylyss@users.noreply.github.com>
+Date:   Fri Aug 1 12:29:54 2025 +0200
+
+    Adding read.me and the DrawSQL schema strategy
+
+commit 6474ffb235fb8f030c5b9190f63d36aae795c724 (origin/main, main, develop)                                                                                                                                                                                                                                       
+Author: Loboda Nicolae <77647358+lylyss@users.noreply.github.com>
+Date:   Fri Aug 1 11:37:08 2025 +0200
+
+    initialize Spring Boot project
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (feature)                                                                                                                                                                                                                                         
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (feature)                                                                                                                                                                                                                                         
+$ git commit -m "Implement user registration functionality with AuthController and AuthService"
+[feature a728ecc] Implement user registration functionality with AuthController and AuthService
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/controllers/AuthController.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/records/UserRegistrationRequest.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/services/AuthService.java
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (feature)                                                                                                                                                                                                                                         
+$ git push
+fatal: The current branch feature has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin feature
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (feature)                                                                                                                                                                                                                                         
+$  git push --set-upstream origin feature
+Enumerating objects: 50, done.
+Counting objects: 100% (50/50), done.
+Delta compression using up to 24 threads
+Compressing objects: 100% (38/38), done.
+Writing objects: 100% (44/44), 84.43 KiB | 9.38 MiB/s, done.
+Total 44 (delta 9), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (9/9), completed with 1 local object.
+remote:
+remote: Create a pull request for 'feature' on GitHub by visiting:
+remote:      https://github.com/lylyss/U5-W7-D5_SpringSecureTest/pull/new/feature
+remote:
+To https://github.com/lylyss/U5-W7-D5_SpringSecureTest.git
+ * [new branch]      feature -> feature
+branch 'feature' set up to track 'origin/feature'.
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (feature)                                                                                                                                                                                                                                         
+$ git add .
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (feature)                                                                                                                                                                                                                                         
+$ git commit - "Implement user registration functionality with AuthController and AuthService"
+error: pathspec '-' did not match any file(s) known to git
+error: pathspec 'Implement user registration functionality with AuthController and AuthService' did not match any file(s) known to git
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (feature)                                                                                                                                                                                                                                         
+$ git checkout develop
+error: Your local changes to the following files would be overwritten by checkout:
+        src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/controllers/AuthController.java
+        src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/entities/User.java
+        src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/records/UserRegistrationRequest.java
+        src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/services/AuthService.java
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (feature)                                                                                                                                                                                                                                         
+$ git commit -m "Implement user registration functionality with AuthController and AuthService"
+[feature 255b83a] Implement user registration functionality with AuthController and AuthService
+ 4 files changed, 144 insertions(+), 2 deletions(-)
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (feature)                                                                                                                                                                                                                                         
+$ git checkout develop
+Switched to branch 'develop'
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (develop)                                                                                                                                                                                                                                         
+$ git merge feature
+Updating 6474ffb..255b83a
+Fast-forward
+ src/main/RreadME/DrowSQL.png                       | Bin 0 -> 87984 bytes
+ src/main/RreadME/GitBash.txt                       |  90 +++++++++++++++++++                                                                                                                                                                                                                                      
+ src/main/RreadME/ReadMe.txt                        |  22 +++++                                                                                                                                                                                                                                                    
+ .../controllers/AuthController.java                |  31 +++++++                                                                                                                                                                                                                                                  
+ .../U5_W7_D5_SpringSecureTest/entities/Event.java  |  35 ++++++++                                                                                                                                                                                                                                                 
+ .../U5_W7_D5_SpringSecureTest/entities/User.java   |  98 +++++++++++++++++++++                                                                                                                                                                                                                                    
+ .../enums/TipoUtente.java                          |   5 ++                                                                                                                                                                                                                                                       
+ .../records/UserRegistrationRequest.java           |  10 +++                                                                                                                                                                                                                                                      
+ .../repositories/EventRepository.java              |  11 +++                                                                                                                                                                                                                                                      
+ .../repositories/UserRepository.java               |  13 +++                                                                                                                                                                                                                                                      
+ .../services/AuthService.java                      |  38 ++++++++                                                                                                                                                                                                                                                 
+ 11 files changed, 353 insertions(+)
+ create mode 100644 src/main/RreadME/DrowSQL.png
+ create mode 100644 src/main/RreadME/GitBash.txt
+ create mode 100644 src/main/RreadME/ReadMe.txt
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/controllers/AuthController.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/entities/Event.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/entities/User.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/enums/TipoUtente.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/records/UserRegistrationRequest.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/repositories/EventRepository.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/repositories/UserRepository.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/services/AuthService.java
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (develop)                                                                                                                                                                                                                                         
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config set advice.addEmptyPathspec false"
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (develop)                                                                                                                                                                                                                                         
+$ git add .
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (develop)                                                                                                                                                                                                                                         
+$  git push --set-upstream origin develop
+Enumerating objects: 29, done.
+Counting objects: 100% (27/27), done.
+Delta compression using up to 24 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (15/15), 2.63 KiB | 1.32 MiB/s, done.
+Total 15 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+Delta compression using up to 24 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (15/15), 2.63 KiB | 1.32 MiB/s, done.
+Total 15 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'develop' on GitHub by visiting:
+remote:      https://github.com/lylyss/U5-W7-D5_SpringSecureTest/pull/new/develop
+remote:
+To https://github.com/lylyss/U5-W7-D5_SpringSecureTest.git
+ * [new branch]      develop -> develop
+branch 'develop' set up to track 'origin/develop'.
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (develop)                                                                                                                                                                                                                                         
+$ git branch feature_sicurity
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (develop)                                                                                                                                                                                                                                         
+$ git checkout feature_sicurity
+Switched to branch 'feature_sicurity'
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (feature_sicurity)
+$ git add .
+warning: in the working copy of 'pom.xml', LF will be replaced by CRLF the next time Git touches it
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (feature_sicurity)                                                                                                                                                                                                                                
+$ git commit -m "Implement login functionality with JWT authentication and security configuration"
+[feature_sicurity f0c539f] Implement login functionality with JWT authentication and security configuration
+ 6 files changed, 234 insertions(+), 100 deletions(-)
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/configurations/SecurityConfig.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/records/UserLoginRequest.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/services/JwtService.java
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (feature_sicurity)                                                                                                                                                                                                                                
+$ git push --set-upstream origin feature_sicurity
+Enumerating objects: 29, done.
+Counting objects: 100% (29/29), done.
+Delta compression using up to 24 threads
+Compressing objects: 100% (14/14), done.
+Writing objects: 100% (17/17), 3.47 KiB | 1.73 MiB/s, done.
+Total 17 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'feature_sicurity' on GitHub by visiting:
+remote:      https://github.com/lylyss/U5-W7-D5_SpringSecureTest/pull/new/feature_sicurity
+remote:
+To https://github.com/lylyss/U5-W7-D5_SpringSecureTest.git
+ * [new branch]      feature_sicurity -> feature_sicurity
+branch 'feature_sicurity' set up to track 'origin/feature_sicurity'.
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (feature_sicurity)                                                                                                                                                                                                                                
+$ git checkout develop
+Switched to branch 'develop'
+Your branch is up to date with 'origin/develop'.
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (develop)                                                                                                                                                                                                                                         
+$ git merge feature_sicurity
+Updating 255b83a..f0c539f
+Fast-forward
+ pom.xml                                            | 234 ++++++++++++---------
+ .../configurations/SecurityConfig.java             |  31 +++                                                                                                                                                                                                                                                      
+ .../controllers/AuthController.java                |  12 +-                                                                                                                                                                                                                                                       
+ .../records/UserLoginRequest.java                  |   8 +                                                                                                                                                                                                                                                        
+ .../services/AuthService.java                      |  14 ++                                                                                                                                                                                                                                                       
+ .../services/JwtService.java                       |  35 +++                                                                                                                                                                                                                                                      
+ 6 files changed, 234 insertions(+), 100 deletions(-)
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/configurations/SecurityConfig.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/records/UserLoginRequest.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/services/JwtService.java
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (develop)                                                                                                                                                                                                                                         
+$ git log
+commit f0c539f187de12bb6cd20751bd21f537d7bca973 (HEAD -> develop, origin/feature_sicurity, feature_sicurity)
+Author: Loboda Nicolae <77647358+lylyss@users.noreply.github.com>
+Date:   Fri Aug 1 14:42:03 2025 +0200
+
+    Implement login functionality with JWT authentication and security configuration
+
+commit 255b83abf06e33d343b5d9d3d5df8e05a5d6e6bf (origin/develop, feature)                                                                                                                                                                                                                                          
+Author: Loboda Nicolae <77647358+lylyss@users.noreply.github.com>
+Date:   Fri Aug 1 13:58:01 2025 +0200
+
+    Implement user registration functionality with AuthController and AuthService
+
+commit a728ecc1a36b9b7241993b0e159181e6e2ac98bb (origin/feature)                                                                                                                                                                                                                                                   
+Author: Loboda Nicolae <77647358+lylyss@users.noreply.github.com>
+Date:   Fri Aug 1 13:53:04 2025 +0200
+
+    Implement user registration functionality with AuthController and AuthService
+
+commit 4e6480e950456fe3bc3d21c0936f5080e2fe7f18
+Author: Loboda Nicolae <77647358+lylyss@users.noreply.github.com>
+Date:   Fri Aug 1 12:50:49 2025 +0200
+
+    Add Event and User entities with repositories for data management
+
+commit 29b28ddae85571df480e19d032c18c6aad747823
+Author: Loboda Nicolae <77647358+lylyss@users.noreply.github.com>
+Date:   Fri Aug 1 12:35:58 2025 +0200
+
+    Git commands
+
+commit c3d605ba0dc01b6be8c0550663b375e75c663687
+Author: Loboda Nicolae <77647358+lylyss@users.noreply.github.com>
+Date:   Fri Aug 1 12:31:31 2025 +0200
+
+    Strategy
+
+commit 567e01824dd50173ea5d0465f5496fc8d87d2862                                                                                                                                                                                                                                                                    
+Author: Loboda Nicolae <77647358+lylyss@users.noreply.github.com>
+Date:   Fri Aug 1 12:29:54 2025 +0200
+
+    Adding read.me and the DrawSQL schema strategy
+
+commit 6474ffb235fb8f030c5b9190f63d36aae795c724 (origin/main, main)                                                                                                                                                                                                                                                
+Author: Loboda Nicolae <77647358+lylyss@users.noreply.github.com>
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (develop)                                                                                                                                                                                                                                         
+$ git branch feature_filter
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (develop)                                                                                                                                                                                                                                         
+$ git checkout feature_filter
+Switched to branch 'feature_filter'
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (feature_filter)                                                                                                                                                                                                                                  
+$ git add .
+warning: in the working copy of 'src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/U5W7D5SpringSecureTestApplication.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/application.properties', LF will be replaced by CRLF the next time Git touches it
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (feature_filter)
+$ git merge -m "Refactor authentication and authorization logic with JWT integration and custom exception handling"
+fatal: No remote for the current branch.
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (feature_filter)                                                                                                                                                                                                                                  
+$ git commit -m "Refactor authentication and authorization logic with JWT integration and custom exception handling"
+[feature_filter c7031fb] Refactor authentication and authorization logic with JWT integration and custom exception handling
+ 14 files changed, 325 insertions(+), 19 deletions(-)
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/exceptions/GlobalExceptionHandler.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/exceptions/ServletException.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/exceptions/UnauthorizedException.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/security/JwtAuthenticationFilter.java
+ rename src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/{configurations => security}/SecurityConfig.java (67%)
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/services/CustomUserDetailsService.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/services/JWTTools.java
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (feature_filter)                                                                                                                                                                                                                                  
+$ git push --set-upstream origin feature_filter
+Enumerating objects: 42, done.
+Counting objects: 100% (42/42), done.
+Delta compression using up to 24 threads
+Compressing objects: 100% (25/25), done.
+Writing objects: 100% (26/26), 5.98 KiB | 1.99 MiB/s, done.
+Total 26 (delta 8), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (8/8), completed with 8 local objects.
+remote:
+remote: Create a pull request for 'feature_filter' on GitHub by visiting:
+remote:      https://github.com/lylyss/U5-W7-D5_SpringSecureTest/pull/new/feature_filter
+remote:
+To https://github.com/lylyss/U5-W7-D5_SpringSecureTest.git
+ * [new branch]      feature_filter -> feature_filter
+branch 'feature_filter' set up to track 'origin/feature_filter'.
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (feature_filter)                                                                                                                                                                                                                                  
+$ git checkout develop
+Switched to branch 'develop'
+Your branch is ahead of 'origin/develop' by 1 commit.
+  (use "git push" to publish your local commits)
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (develop)                                                                                                                                                                                                                                         
+$ git merge feature_filter
+Updating f0c539f..c7031fb
+Fast-forward
+ pom.xml                                            |  4 ++
+ .../U5W7D5SpringSecureTestApplication.java         | 11 +++-                                                                                                                                                                                                                                                      
+ .../U5_W7_D5_SpringSecureTest/entities/Event.java  | 76 +++++++++++++++++++++-                                                                                                                                                                                                                                    
+ .../U5_W7_D5_SpringSecureTest/entities/User.java   |  3 +-                                                                                                                                                                                                                                                        
+ .../exceptions/GlobalExceptionHandler.java         | 62 ++++++++++++++++++                                                                                                                                                                                                                                        
+ .../exceptions/ServletException.java               |  8 +++                                                                                                                                                                                                                                                       
+ .../exceptions/UnauthorizedException.java          |  7 ++                                                                                                                                                                                                                                                        
+ .../security/JwtAuthenticationFilter.java          | 51 +++++++++++++++                                                                                                                                                                                                                                           
+ .../SecurityConfig.java                            | 16 +++--                                                                                                                                                                                                                                                     
+ .../services/AuthService.java                      |  9 +--                                                                                                                                                                                                                                                       
+ .../services/CustomUserDetailsService.java         | 29 +++++++++                                                                                                                                                                                                                                                 
+ .../services/JWTTools.java                         | 47 +++++++++++++                                                                                                                                                                                                                                             
+ .../services/JwtService.java                       | 19 +++++-                                                                                                                                                                                                                                                    
+ src/main/resources/application.properties          |  2 +-                                                                                                                                                                                                                                                        
+ 14 files changed, 325 insertions(+), 19 deletions(-)
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/exceptions/GlobalExceptionHandler.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/exceptions/ServletException.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/exceptions/UnauthorizedException.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/security/JwtAuthenticationFilter.java
+ rename src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/{configurations => security}/SecurityConfig.java (67%)
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/services/CustomUserDetailsService.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/services/JWTTools.java
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (develop)                                                                                                                                                                                                                                         
+$ git push --set-upstream origin develop
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/lylyss/U5-W7-D5_SpringSecureTest.git
+   255b83a..c7031fb  develop -> develop
+branch 'develop' set up to track 'origin/develop'.
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (develop)                                                                                                                                                                                                                                         
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (main)                                                                                                                                                                                                                                            
+$ git merge develop
+Updating 6474ffb..c7031fb
+Fast-forward
+ pom.xml                                            | 238 ++++++++++++---------
+ src/main/RreadME/DrowSQL.png                       | Bin 0 -> 87984 bytes
+ src/main/RreadME/GitBash.txt                       |  90 ++++++++                                                                                                                                                                                                                                                 
+ src/main/RreadME/ReadMe.txt                        |  22 ++                                                                                                                                                                                                                                                       
+ .../U5W7D5SpringSecureTestApplication.java         |  11 +-                                                                                                                                                                                                                                                       
+ .../controllers/AuthController.java                |  39 ++++                                                                                                                                                                                                                                                     
+ .../U5_W7_D5_SpringSecureTest/entities/Event.java  | 109 ++++++++++                                                                                                                                                                                                                                               
+ .../U5_W7_D5_SpringSecureTest/entities/User.java   |  97 +++++++++                                                                                                                                                                                                                                                
+ .../enums/TipoUtente.java                          |   5 +                                                                                                                                                                                                                                                        
+ .../exceptions/GlobalExceptionHandler.java         |  62 ++++++                                                                                                                                                                                                                                                   
+ .../exceptions/ServletException.java               |   8 +                                                                                                                                                                                                                                                        
+ .../exceptions/UnauthorizedException.java          |   7 +                                                                                                                                                                                                                                                        
+ .../records/UserLoginRequest.java                  |   8 +                                                                                                                                                                                                                                                        
+ .../records/UserRegistrationRequest.java           |  10 +                                                                                                                                                                                                                                                        
+ .../repositories/EventRepository.java              |  11 +                                                                                                                                                                                                                                                        
+ .../repositories/UserRepository.java               |  13 ++                                                                                                                                                                                                                                                       
+ .../security/JwtAuthenticationFilter.java          |  51 +++++                                                                                                                                                                                                                                                    
+ .../security/SecurityConfig.java                   |  37 ++++                                                                                                                                                                                                                                                     
+ .../services/AuthService.java                      |  53 +++++                                                                                                                                                                                                                                                    
+ .../services/CustomUserDetailsService.java         |  29 +++                                                                                                                                                                                                                                                      
+ .../services/JWTTools.java                         |  47 ++++                                                                                                                                                                                                                                                     
+ .../services/JwtService.java                       |  48 +++++                                                                                                                                                                                                                                                    
+ src/main/resources/application.properties          |   2 +-                                                                                                                                                                                                                                                       
+ 23 files changed, 895 insertions(+), 102 deletions(-)
+ create mode 100644 src/main/RreadME/DrowSQL.png
+ create mode 100644 src/main/RreadME/GitBash.txt
+ create mode 100644 src/main/RreadME/ReadMe.txt
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/controllers/AuthController.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/entities/Event.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/entities/User.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/enums/TipoUtente.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/exceptions/GlobalExceptionHandler.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/exceptions/ServletException.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/exceptions/UnauthorizedException.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/records/UserLoginRequest.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/records/UserRegistrationRequest.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/repositories/EventRepository.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/repositories/UserRepository.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/security/JwtAuthenticationFilter.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/security/SecurityConfig.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/services/AuthService.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/services/CustomUserDetailsService.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/services/JWTTools.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/services/JwtService.java
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (main)                                                                                                                                                                                                                                            
+$ git push --set-upstream origin main
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/lylyss/U5-W7-D5_SpringSecureTest.git
+   6474ffb..c7031fb  main -> main
+branch 'main' set up to track 'origin/main'.
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (main)                                                                                                                                                                                                                                            
+$ git log
+commit c7031fb8436c2e1c21bfbc3991454fbcd679430b (HEAD -> main, origin/main, origin/feature_filter, origin/develop, feature_filter, develop)
+Author: Loboda Nicolae <77647358+lylyss@users.noreply.github.com>
+Date:   Fri Aug 1 16:21:13 2025 +0200
+
+    Refactor authentication and authorization logic with JWT integration and custom exception handling
+
+commit f0c539f187de12bb6cd20751bd21f537d7bca973 (origin/feature_sicurity, feature_sicurity)                                                                                                                                                                                                                        
+Author: Loboda Nicolae <77647358+lylyss@users.noreply.github.com>
+Date:   Fri Aug 1 14:42:03 2025 +0200
+
+    Implement login functionality with JWT authentication and security configuration
+
+commit 255b83abf06e33d343b5d9d3d5df8e05a5d6e6bf (feature)                                                                                                                                                                                                                                                          
+Author: Loboda Nicolae <77647358+lylyss@users.noreply.github.com>
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (main)                                                                                                                                                                                                                                            
+$ git checkout develop
+Switched to branch 'develop'
+Your branch is up to date with 'origin/develop'.
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (develop)                                                                                                                                                                                                                                         
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (main)                                                                                                                                                                                                                                            
+$ git tag v1.0.0
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (main)                                                                                                                                                                                                                                            
+$ git checkout develop
+Switched to branch 'develop'
+Your branch is up to date with 'origin/develop'.
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (develop)                                                                                                                                                                                                                                         
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (develop)
+$ git add .
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (develop)
+$ git commit -m "Add event retrieval endpoint and refactor Event entity date type"
+[develop 423230e] Add event retrieval endpoint and refactor Event entity date type
+ 8 files changed, 28 insertions(+), 18 deletions(-)
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (develop)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (main)                                                                                                                                                                                                                                            
+$ git merge develop
+Updating c7031fb..423230e
+Fast-forward
+ service/AuthenticationService.java                     |  1 -                                                                                                                                                                                                                                                     
+ .../U5W7D5SpringSecureTestApplication.java             |  2 +-                                                                                                                                                                                                                                                    
+ .../controllers/AuthController.java                    | 18 ++++++++++++++----                                                                                                                                                                                                                                    
+ .../U5_W7_D5_SpringSecureTest/entities/Event.java      | 11 ++++++-----                                                                                                                                                                                                                                           
+ .../exceptions/GlobalExceptionHandler.java             | 10 ++++++----                                                                                                                                                                                                                                            
+ .../security/JwtAuthenticationFilter.java              |  2 +-                                                                                                                                                                                                                                                    
+ strategy/AuthenticationStrategy.java                   |  1 -                                                                                                                                                                                                                                                     
+ strategy/BasicAuthenticationStrategy.java              |  1 -                                                                                                                                                                                                                                                     
+ 8 files changed, 28 insertions(+), 18 deletions(-)
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (main)                                                                                                                                                                                                                                            
+$ git checkout develop
+Switched to branch 'develop'
+Your branch is ahead of 'origin/develop' by 1 commit.
+  (use "git push" to publish your local commits)
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (develop)                                                                                                                                                                                                                                         
+$ git add .
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (develop)                                                                                                                                                                                                                                         
+$ git commit -m "Add event retrieval endpoint and refactor Event entity date type"
+[develop 0c0c062] Add event retrieval endpoint and refactor Event entity date type
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (develop)                                                                                                                                                                                                                                         
+$ git add .
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (develop)
+$ git checkout main
+A       entities/Event.java
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (main)
+$ git checkout develop
+A       entities/Event.java
+Switched to branch 'develop'
+Your branch is up to date with 'origin/develop'.
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (develop)
+$ git checkout main
+A       entities/Event.java
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (main)
+$ git merge develop
+Updating 423230e..e05e523
+Fast-forward
+ .../U5_W7_D5_SpringSecureTest/controllers/AuthController.java       | 6 ++++++
+ .../U5_W7_D5_SpringSecureTest/security/SecurityConfig.java          | 2 +-                                                                                                                                                                                                                                        
+ 2 files changed, 7 insertions(+), 1 deletion(-)
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (main)                                                                                                                                                                                                                                            
+$ 
