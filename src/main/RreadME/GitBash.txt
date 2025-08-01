@@ -1,0 +1,90 @@
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest
+$ git remote add origin https://github.com/lylyss/U5-W7-D5_SpringSecureTest.git
+fatal: not a git repository (or any of the parent directories): .git
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest
+$ git init
+Initialized empty Git repository in D:/EPICODE_backand/U5-W7-D5_SpringSecureTest/.git/
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (main)
+$ git add .
+warning: in the working copy of '.gitattributes', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.mvn/wrapper/maven-wrapper.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'mvnw.cmd', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'pom.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/U5W7D5SpringSecureTestApplication.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/application.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/test/java/lobodanicolae/U5_W7_D5_SpringSecureTest/U5W7D5SpringSecureTestApplicationTests.java', LF will be replaced by CRLF the next time Git touches it
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (main)
+$ git commit -m "initialize Spring Boot project"
+[main (root-commit) 6474ffb] initialize Spring Boot project
+ 12 files changed, 610 insertions(+)
+ create mode 100644 .gitattributes
+ create mode 100644 .gitignore
+ create mode 100644 .mvn/wrapper/maven-wrapper.properties
+ create mode 100644 mvnw
+ create mode 100644 mvnw.cmd
+ create mode 100644 pom.xml
+ create mode 100644 service/AuthenticationService.java
+ create mode 100644 src/main/java/lobodanicolae/U5_W7_D5_SpringSecureTest/U5W7D5SpringSecureTestApplication.java
+ create mode 100644 src/main/resources/application.properties
+ create mode 100644 src/test/java/lobodanicolae/U5_W7_D5_SpringSecureTest/U5W7D5SpringSecureTestApplicationTests.java
+ create mode 100644 strategy/AuthenticationStrategy.java
+ create mode 100644 strategy/BasicAuthenticationStrategy.java
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (main)
+$ git remote add origin https://github.com/lylyss/U5-W7-D5_SpringSecureTest.git
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (main)
+$ git push -u origin main
+Enumerating objects: 26, done.
+Counting objects: 100% (26/26), done.
+Delta compression using up to 24 threads
+Compressing objects: 100% (20/20), done.
+Writing objects: 100% (26/26), 9.28 KiB | 1.86 MiB/s, done.
+Total 26 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/lylyss/U5-W7-D5_SpringSecureTest.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (main)
+$ git log
+commit 6474ffb235fb8f030c5b9190f63d36aae795c724 (HEAD -> main, origin/main)
+Author: Loboda Nicolae <77647358+lylyss@users.noreply.github.com>
+Date:   Fri Aug 1 11:37:08 2025 +0200
+
+    initialize Spring Boot project
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (main)
+$ git branch develop
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (main)
+$ git checkout develop
+A       src/main/RreadME/DrowSQL.png
+A       src/main/RreadME/ReadMe.txt
+Switched to branch 'develop'
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (develop)
+$ git branch feature
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (develop)
+$ git checkout feature
+A       src/main/RreadME/DrowSQL.png
+A       src/main/RreadME/ReadMe.txt
+Switched to branch 'feature'
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (feature)
+$ git add .
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (feature)
+$ git commit -m "Adding read.me and the DrawSQL schema strategy "
+[feature 567e018] Adding read.me and the DrawSQL schema strategy
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 src/main/RreadME/DrowSQL.png
+ create mode 100644 src/main/RreadME/ReadMe.txt
+
+gladd@LYLYS MINGW64 /d/EPICODE_backand/U5-W7-D5_SpringSecureTest (feature)
+$
