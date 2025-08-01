@@ -46,4 +46,10 @@ public class AuthController {
         List<Event> events = eventRepository.findAll();
         return ResponseEntity.ok(events);
     }
+
+    @PostMapping("/events")
+    public ResponseEntity<Event> createEvent(@RequestBody Event event) {
+        Event savedEvent = eventRepository.save(event);
+        return ResponseEntity.ok(savedEvent);
+    }
 }
