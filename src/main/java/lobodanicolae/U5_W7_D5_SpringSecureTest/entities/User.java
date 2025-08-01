@@ -29,7 +29,70 @@ public class User {
     private List<Event> events;
 
 
-    // Getters e Setters
-    // ...
+    public User() {
+    }
+
+    public User(String username, String email, String password, TipoUtente tipoUtente) {
+        this.username = username;
+        this.email = email;
+        this.password = password;
+        this.tipoUtente = tipoUtente;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public TipoUtente getTipoUtente() {
+        return tipoUtente;
+    }
+
+    public void setTipoUtente(TipoUtente tipoUtente) {
+        this.tipoUtente = tipoUtente;
+    }
+
+    public List<Event> getEvents() {
+        return events;
+    }
+
+    public void setEvents(List<Event> events) {
+        this.events = events;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                ", tipoUtente=" + tipoUtente +
+                ", events=" + events +
+                '}';
+    }
 }
 
