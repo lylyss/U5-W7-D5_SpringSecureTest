@@ -12,7 +12,7 @@ public class U5W7D5SpringSecureTestApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(U5W7D5SpringSecureTestApplication.class, args);
-        logger.info("Applicazione avviata con successo!");
+        logger.info("-----------------------------------   Applicazione avviata con successo!   --------------------");
     }
 
 }

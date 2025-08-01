@@ -2,7 +2,8 @@ package lobodanicolae.U5_W7_D5_SpringSecureTest.entities;
 
 import jakarta.persistence.*;
 
-import java.time.LocalDateTime;
+import java.time.LocalDate;
+
 
 @Entity
 public class Event {
@@ -17,7 +18,7 @@ public class Event {
     private String descrizione;
 
     @Column(nullable = false)
-    private LocalDateTime data;
+    private LocalDate data;
 
     @Column(nullable = false)
     private String luogo;
@@ -32,7 +33,7 @@ public class Event {
     public Event() {
     }
 
-    public Event(String titolo, String descrizione, LocalDateTime data, String luogo, int postiDisponibili, User creatore) {
+    public Event(String titolo, String descrizione, LocalDate data, String luogo, int postiDisponibili, User creatore) {
         this.titolo = titolo;
         this.descrizione = descrizione;
         this.data = data;
@@ -61,11 +62,11 @@ public class Event {
         this.descrizione = descrizione;
     }
 
-    public LocalDateTime getData() {
+    public LocalDate getData() {
         return data;
     }
 
-    public void setData(LocalDateTime data) {
+    public void setData(LocalDate data) {
         this.data = data;
     }
 

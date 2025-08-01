@@ -1,5 +1,7 @@
 package lobodanicolae.U5_W7_D5_SpringSecureTest.exceptions;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.access.AccessDeniedException;
 import org.springframework.web.bind.MethodArgumentNotValidException;
@@ -12,6 +14,7 @@ import java.util.stream.Collectors;
 
 @RestControllerAdvice
 public class GlobalExceptionHandler {
+    private static final Logger logger = LoggerFactory.getLogger(GlobalExceptionHandler.class);
 
     @ExceptionHandler(UnauthorizedException.class)
     @ResponseStatus(HttpStatus.UNAUTHORIZED)
@@ -37,13 +40,13 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(Exception.class)
     @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
     public ErrorResponse handleGeneric(Exception ex) {
-        ex.printStackTrace();
+        logger.error("Errore imprevisto", ex);
         return new ErrorResponse("Errore imprevisto. Ci scusiamo per il disagio.", LocalDateTime.now());
     }
 
     public static class ErrorResponse {
-        private String message;
-        private LocalDateTime timestamp;
+        private final String message;
+        private final LocalDateTime timestamp;
 
         public ErrorResponse(String message, LocalDateTime timestamp) {
             this.message = message;
@@ -59,4 +62,3 @@ public class GlobalExceptionHandler {
         }
     }
 }
-
