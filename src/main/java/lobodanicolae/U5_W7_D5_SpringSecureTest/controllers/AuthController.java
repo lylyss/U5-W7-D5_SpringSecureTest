@@ -1,6 +1,7 @@
 package lobodanicolae.U5_W7_D5_SpringSecureTest.controllers;
 
 import lobodanicolae.U5_W7_D5_SpringSecureTest.entities.User;
+import lobodanicolae.U5_W7_D5_SpringSecureTest.records.UserLoginRequest;
 import lobodanicolae.U5_W7_D5_SpringSecureTest.records.UserRegistrationRequest;
 import lobodanicolae.U5_W7_D5_SpringSecureTest.services.AuthService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,6 +27,13 @@ public class AuthController {
         }
     }
 
-    // Endpoint di login da implementare 
+    @PostMapping("/login")
+    public ResponseEntity<String> login(@RequestBody UserLoginRequest request) {
+        try {
+            String token = authService.login(request.username(), request.password());
+            return ResponseEntity.ok(token);
+        } catch (RuntimeException e) {
+            return ResponseEntity.badRequest().body(e.getMessage());
+        }
+    }
 }
-

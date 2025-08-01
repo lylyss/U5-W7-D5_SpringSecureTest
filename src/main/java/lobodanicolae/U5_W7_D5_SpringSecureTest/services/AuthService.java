@@ -15,6 +15,8 @@ public class AuthService {
     private final BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
     @Autowired
     private UserRepository userRepository;
+    @Autowired
+    private JwtService jwtService;
 
     public User register(UserRegistrationRequest request) {
         if (userRepository.findByUsername(request.username()).isPresent()) {
@@ -34,5 +36,17 @@ public class AuthService {
 
     public Optional<User> findByUsername(String username) {
         return userRepository.findByUsername(username);
+    }
+
+    public String login(String username, String password) {
+        Optional<User> userOpt = userRepository.findByUsername(username);
+        if (userOpt.isEmpty()) {
+            throw new RuntimeException("Username o password errati");
+        }
+        User user = userOpt.get();
+        if (!passwordEncoder.matches(password, user.getPassword())) {
+            throw new RuntimeException("Username o password errati");
+        }
+        return jwtService.generateToken(user.getUsername());
     }
 }
