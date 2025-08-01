@@ -2,6 +2,7 @@ package lobodanicolae.U5_W7_D5_SpringSecureTest.services;
 
 import lobodanicolae.U5_W7_D5_SpringSecureTest.entities.User;
 import lobodanicolae.U5_W7_D5_SpringSecureTest.enums.TipoUtente;
+import lobodanicolae.U5_W7_D5_SpringSecureTest.exceptions.UnauthorizedException;
 import lobodanicolae.U5_W7_D5_SpringSecureTest.records.UserRegistrationRequest;
 import lobodanicolae.U5_W7_D5_SpringSecureTest.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +17,7 @@ public class AuthService {
     @Autowired
     private UserRepository userRepository;
     @Autowired
-    private JwtService jwtService;
+    private JWTTools jwtTools;
 
     public User register(UserRegistrationRequest request) {
         if (userRepository.findByUsername(request.username()).isPresent()) {
@@ -41,12 +42,12 @@ public class AuthService {
     public String login(String username, String password) {
         Optional<User> userOpt = userRepository.findByUsername(username);
         if (userOpt.isEmpty()) {
-            throw new RuntimeException("Username o password errati");
+            throw new UnauthorizedException("Credenziali errate!");
         }
         User user = userOpt.get();
         if (!passwordEncoder.matches(password, user.getPassword())) {
-            throw new RuntimeException("Username o password errati");
+            throw new UnauthorizedException("Credenziali errate!");
         }
-        return jwtService.generateToken(user.getUsername());
+        return jwtTools.createToken(user);
     }
 }

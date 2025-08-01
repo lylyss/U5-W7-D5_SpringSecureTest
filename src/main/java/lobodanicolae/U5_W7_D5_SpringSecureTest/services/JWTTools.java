@@ -3,22 +3,23 @@ package lobodanicolae.U5_W7_D5_SpringSecureTest.services;
 import io.jsonwebtoken.JwtException;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
+import lobodanicolae.U5_W7_D5_SpringSecureTest.entities.User;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
 
 import java.util.Date;
 
-@Service
-public class JwtService {
+@Component
+public class JWTTools {
     @Value("${JWT_SECRET}")
     private String jwtSecret;
 
     @Value("${JWT_EXPIRATION}")
     private long jwtExpiration;
 
-    public String generateToken(String username) {
+    public String createToken(User user) {
         return Jwts.builder()
-                .setSubject(username)
+                .setSubject(user.getUsername())
                 .setIssuedAt(new Date())
                 .setExpiration(new Date(System.currentTimeMillis() + jwtExpiration))
                 .signWith(SignatureAlgorithm.HS512, jwtSecret)
@@ -27,9 +28,8 @@ public class JwtService {
 
     public boolean validateToken(String token) {
         try {
-            Jwts.parserBuilder()
-                    .setSigningKey(jwtSecret.getBytes())
-                    .build()
+            Jwts.parser()
+                    .setSigningKey(jwtSecret)
                     .parseClaimsJws(token);
             return true;
         } catch (JwtException | IllegalArgumentException e) {
@@ -38,9 +38,8 @@ public class JwtService {
     }
 
     public String getUsernameFromToken(String token) {
-        return Jwts.parserBuilder()
-                .setSigningKey(jwtSecret.getBytes())
-                .build()
+        return Jwts.parser()
+                .setSigningKey(jwtSecret)
                 .parseClaimsJws(token)
                 .getBody()
                 .getSubject();

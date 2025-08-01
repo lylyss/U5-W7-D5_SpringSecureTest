@@ -2,11 +2,11 @@ package lobodanicolae.U5_W7_D5_SpringSecureTest.entities;
 
 import jakarta.persistence.*;
 import lobodanicolae.U5_W7_D5_SpringSecureTest.enums.TipoUtente;
-import org.yaml.snakeyaml.events.Event;
 
 import java.util.List;
 
 @Entity
+@Table(name = "users")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -95,4 +95,3 @@ public class User {
                 '}';
     }
 }
-
